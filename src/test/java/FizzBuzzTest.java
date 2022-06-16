@@ -8,7 +8,7 @@ public class FizzBuzzTest {
 
         FizzBuzz fizzbuzz = new FizzBuzz();
 
-        String result = fizzbuzz.print(9);
+        String result = fizzbuzz.FizzBuzzPrinter(9);
 
         assertEquals("Fizz",result);
     }
@@ -18,7 +18,7 @@ public class FizzBuzzTest {
 
         FizzBuzz fizzBuzz = new FizzBuzz();
 
-        String result = fizzBuzz.print(20);
+        String result = fizzBuzz.FizzBuzzPrinter(20);
 
         assertEquals("Buzz",result);
 
@@ -29,7 +29,7 @@ public class FizzBuzzTest {
 
         FizzBuzz fizzBuzz = new FizzBuzz();
 
-        String result = fizzBuzz.print(30);
+        String result = fizzBuzz.FizzBuzzPrinter(30);
 
         assertEquals("FizzBuzz",result);
     }
@@ -39,7 +39,7 @@ public class FizzBuzzTest {
 
         FizzBuzz fizzBuzz = new FizzBuzz();
 
-        String result = fizzBuzz.print(13);
+        String result = fizzBuzz.FizzBuzzPrinter(13);
 
         assertEquals("13",result);
     }
