@@ -34,4 +34,14 @@ public class FizzBuzzTest {
         assertEquals("FizzBuzz",result);
     }
 
+    @Test
+    void ReturnTheNumberInStringFormatIfTheNumberIsNeitherDivisibleBy3Nor5() {
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        String result = fizzBuzz.print(13);
+
+        assertEquals("13",result);
+    }
+
 }
